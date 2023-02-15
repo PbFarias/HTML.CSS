@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 700px;
+            height: 500px;
+            border: 2px solid black;
+        }
+
+        div{
+            text-align: center;
+        }
+
+        div iframe{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odio, recusandae laborum fugit nesciunt, aspernatur inventore non accusantium optio architecto nam magni veritatis explicabo voluptatem unde! Ab, aliquid officiis! Reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, unde aliquam quisquam totam officiis beatae deleniti exercitationem minima odio magnam quas in culpa nisi quam ducimus assumenda. Quas, ducimus necessitatibus!</p>
+
+    <ul>
+        <li><a href="pag01.html" target="frame">Primeira Página</a></li>
+        <li><a href="pag02.html" target="frame">Segunda página</a></li>
+        <li><a href="pag03.html" target="frame">Terceira Página</a></li>
+    </ul>
+    
+    <div>
+        <iframe style="text-align: center;" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <img src='imagens/goldenporks.png'>">
+            <p>Seu navegador não é compatível</p>
+        </iframe>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque debitis modi molestiae a officia facilis, saepe natus labore nobis nostrum maiores, eius repellendus. Quod ea maiores amet nostrum? Tempora, facere? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore optio deserunt? Molestiae Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquam error ullam fuga harum vero veritatis fugit ipsa soluta sed incidunt sapiente totam? Ipsam, consectetur animi. Facilis maiores recusandae ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo id obcaecati nulla tempora ullam. Tenetur pariatur ipsa et fugit totam veniam, deserunt non, consequuntur, quo dolorum explicabo eveniet nam quaerat!</p>
+</body>
+</html>
